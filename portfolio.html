@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Meus Projetos</h2>
+        
+        <section>
+            <h3>Projeto 1:</h3>
+            <h4>Criação de um Perceptron</h4>
+            <p><strong>Estrutura:</strong></p>
+            <ul>
+                <li><strong>Entradas (Inputs):</strong> Recebe um conjunto de valores de entrada.</li>
+                <li><strong>Pesos (Weights):</strong> Cada entrada é multiplicada por um peso. Os pesos ajustam a importância de cada entrada na decisão final.</li>
+                <li><strong>Função de Ativação:</strong> O somatório das entradas ponderadas é passado por uma função de ativação, que decide a saída final. No perceptron básico, a função de ativação é uma função de passo (step function), que retorna um valor 1 se o somatório for maior que um determinado limiar, e 0 caso contrário.</li>
+                <li><strong>Saída (Output):</strong> O resultado da função de ativação, que é a decisão final do perceptron.</li>
+            </ul>
+            <p><strong>Funcionamento:</strong></p>
+            <ul>
+                <li><strong>Processo de Decisão:</strong> O perceptron calcula uma combinação linear das entradas multiplicadas pelos pesos, adiciona um viés (bias), e passa o resultado pela função de ativação para determinar a saída.</li>
+                <li><strong>Treinamento:</strong> Durante o treinamento, o perceptron ajusta os pesos com base no erro entre a saída prevista e a saída real, utilizando um algoritmo de aprendizado, como o algoritmo de aprendizagem perceptron.</li>
+            </ul>
+            <p><strong>Algoritmo de Aprendizagem:</strong> O algoritmo de aprendizado ajusta os pesos do perceptron com base no erro da previsão. O ajuste é feito para minimizar a diferença entre a saída esperada e a saída prevista.</p>
+            <p><strong>Limitações:</strong> O perceptron é capaz de resolver apenas problemas linearmente separáveis. Para problemas mais complexos, como aqueles que não podem ser separados por uma linha reta, são necessárias redes neurais mais avançadas e camadas adicionais.</p>
+            <p>Em resumo, o perceptron é uma ferramenta simples e fundamental para entender o funcionamento das redes neurais e é a base para modelos mais complexos, como redes neurais multicamadas e redes neurais profundas.</p>
+            
+            <h4>Imagens do Perceptron</h4>
+            <p><img src="images/perceptron.png" alt="Perceptron" style="max-width:100%; height:auto;"></p>
+            <h4>Imagens de Treinamento</h4>
+            <p><img src="images/treinamento.png" alt="Treinamento" style="max-width:100%; height:auto;"></p>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h3>Projeto 2:</h3>
+            <h4>Educação Contínua</h4>
+            <p>Neste projeto, o objetivo foi analisar e identificar os municípios com as menores taxas de alfabetização. Utilizando ferramentas de visualização de dados, como gráficos de barras e mapas interativos, foi possível destacar as áreas mais críticas que necessitam de atenção urgente e intervenção estratégica.</p>
+            <p>O projeto também incluiu a criação de um dashboard interativo que permite filtrar dados por diferentes critérios e visualizar correlações entre fatores como escolaridade, número de matrículas e população. Essas análises ajudaram a desenvolver recomendações para melhorar a alfabetização nessas regiões, como capacitação de professores e monitoramento contínuo dos resultados.</p>
+            <p>O resultado final foi um recurso visual poderoso que orienta estratégias eficazes para melhorar a educação em áreas necessitadas, proporcionando uma visão clara e direcionada para a tomada de decisões educacionais.</p>
+            
+            <h4>Imagens do Projeto</h4>
+            <h5>pag 1. Resultados</h5>
+            <p><img src="images/Resultados.png" alt="Resultado" style="max-width:100%; height:auto;"></p>
+            <h5>pag 2. Mapa de Taxa de Alfabetização</h5>
+            <p><img src="images/mapa_taxa_alfabetizacao.png" alt="Mapa Taxa de Alfabetização" style="max-width:100%; height:auto;"></p>
+            
+            <h5>Segue o link a baixo:</h5>
+            <p><a href="https://app.powerbi.com/view?r=eyJrIjoiYjNhZmNhMGUtZGE1Yy00OWNhLThhMjctNjNkYTFkYzRkNTQzIiwidCI6ImE4MjVkZjU0LWUxY2YtNDAzNC05MjIyLWQ5MGE4MzVjYzRjYSJ9" target="_blank">Dashboard de Educação Contínua - Clique Aqui</a></p>
+        </section>
+    </main>
+</body>
+</html>
